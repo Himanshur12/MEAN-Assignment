@@ -3,10 +3,22 @@
 This is our project for using the Expressjs with Mongodb with the help of admin-mongo and postman(RestClient).
 
 #What We are Using :- 
-1.EpxressJs.
-2.MongoDb.
-3.Admin-Mongo.
-4.PostMan(Rested)
+1.NodeJs ((i):sudo apt-get install nodejs,(ii):sudo apt-get install npm )
+2.EpxressJs.(npm install -g express)
+3.MongoDb.(npm install -g mongo)
+4.Admin-Mongo.(To Run this: Node app.js)
+5.PostMan(Rested/REST-Client)
+
+Steps To Run API :-
+1.Open Terminal/cmd in local repositiory folder.
+2.Type node server.js in terminal/cmd to run server.
+3.To Register User : Type in your browser : localhost:3000/auth/regsiter.
+4.To Login User : Type in your browser : localhost:3000/auth/login.
+5.To Create Product : Type in your browser with post method : localhost:3000/api/auth/product.
+6.To Read Product : Type in your browser with get method : localhost:3000/api/auth/products.
+7.To Upate Product : Type in your browser with put method : localhost:3000/api/auth/products/:id.
+8.To Delete Product : Type in your browser with delete method : localhost:3000/api/auth/products/:id.
+
 
 The Following folders contains different modules for our api :-
 
