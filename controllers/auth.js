@@ -69,7 +69,7 @@ exports.register = (req,res)=>{
             }
             })
         }
-        else{res.status(404).send('invalid data formate')}
+        else{res.status(404).send('invalid data format')}
     });
 }
 
