@@ -3,10 +3,15 @@
 This is our project for using the Expressjs with Mongodb with the help of admin-mongo and postman(RestClient).
 
 #What We are Using :- 
-1.NodeJs ((i):sudo apt-get install nodejs,(ii):sudo apt-get install npm )
+1.NodeJs 
+((i):sudo apt-get install nodejs,(ii):sudo apt-get install npm )
+
 2.EpxressJs.(npm install -g express)
+
 3.MongoDb.(npm install -g mongo)
+
 4.Admin-Mongo.(To Run this: Node app.js)
+
 5.PostMan(Rested/REST-Client)
 
 Steps To Run API :-
